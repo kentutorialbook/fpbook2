@@ -1,0 +1,29 @@
+{
+  "name": "fpbook2",
+  "version": "1.0.0",
+  "description": "functional programming tutorial book code",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "twa": "npx tsc -w -p ./code/src/any/",
+    "twt": "npx tsc -w -p ./code/src/typed/"
+  },
+  "scriptsComments": {
+    "twa": "npm run twa    // tsc watch any",
+    "twt": "npm run twt    // tsc watch typed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentutorialbook/fpbook2.git"
+  },
+  "author": "Ken Okabe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentutorialbook/fpbook2/issues"
+  },
+  "homepage": "https://github.com/kentutorialbook/fpbook2#readme",
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}

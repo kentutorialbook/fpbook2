@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution":"node",
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "outDir": "../../../code/dist/typed/code/",
+    "rootDir": "./code/",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "declaration": false
+  }
+}
